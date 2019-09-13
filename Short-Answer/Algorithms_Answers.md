@@ -14,12 +14,12 @@ this function runs a recursive call for every bunnie that is added to the input 
 
 ## Exercise II
 search through the floors and find the breaking point with as few steps as possible
-use binary search - small step search method
+use binary search - smallest step search method
 
 While f is not found,
-    if f == not break and f+1 == break, then f == found
-    elif f==not break, then f = f+n/2  #middle of higher half
-    else then f = f/2  #middle of lower half
+    if f == break and f-1 == not break, then f == found
+    elif f==not break, then f = f+n/2  # middle of higher half
+    else then f = f/2  # middle of lower half
 return f
 
 

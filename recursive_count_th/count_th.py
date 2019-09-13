@@ -9,13 +9,7 @@ def count_th(word, count=0):
 
     # TBC
     if len(word) > 1:
-        print(word)
         if word[0] + word[1] == 'th':
             count += 1
         return count_th(word[1:], count)
     return count
-
-
-word = "abcthxyz"
-count = count_th(word)
-print(1, count)
